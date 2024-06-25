@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flexbox.css">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.10.4/dist/gsap.min.js"></script>
+    <link rel="shortcut icon" href="imagenes/poke.png" type="image/x-icon">
+    <title>ALURAPOKEGEEK</title>
+</head>
+
+<body>
+    <header>
+        <div class="contenedor_header">
+            <img class="img_header" src="imagenes/pokebola.png" alt="pokebola">
+            <img class="img_header" src="imagenes/pokebola.png" alt="pokebola">
+            <img class="img_header" src="imagenes/pokebola.png" alt="pokebola">
+            <h1 class="header_titulo">ALURAPOKEGEEK</h1>
+        </div>
+    </header>
+    <main>
+        <div class="contenedor_main">
+            <section class="contenedor_productos">
+                <h1 class="texto_product">MIS PRODUCTOS</h1>
+                <div class="contenedor_papaCard">
+                    <!-- Las tarjetas se generarán aquí dinámicamente -->
+                </div>
+            </section>
+            <section class="contenedor_subirProducto">
+                <h1>AGREGAR PRODUCTOS:</h1>
+                <form class="contenedor_input">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" placeholder="nombre..." required>
+
+                    <label for="precio">Precio:</label>
+                    <input type="number" id="precio" placeholder="precio..." min="0" required>
+
+                    <label for="imagen">Imagen URL:</label>
+                    <input type="url" id="imagen" placeholder="http://example.com/image.jpg" required>
+                    <div class="contenedor_botones">
+                        <button class="boton" type="submit">Agregar Producto</button>
+                    </div>
+                </form>
+
+            </section>
+
+        </div>
+    </main>
+    <footer class="contenedor_generalFo">
+        <div class="contenedor_footer">
+            <img class="img_header" src="imagenes/pokebola.png" alt="pokebola">
+            <img class="img_header" src="imagenes/pokebola.png" alt="pokebola">
+            <img class="img_header" src="imagenes/pokebola.png" alt="pokebola">
+            <h1 class="header_titulo">ALURAPOKEGEEK</h1>
+        </div>
+        <h1 class="tex_footer">Desarrollado por: Wizzsam</h1>
+        <h1 class="tex_footer">Alura Latam 2024</h1>
+    </footer>
+
+    <script type="module" src="js/api.js"></script>
+    <script type="module" src="js/listarProductos.js"></script>
+    <script type="module" src="js/crearProducto.js"></script>
+</body>
+
+</html>

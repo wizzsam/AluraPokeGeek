@@ -1,0 +1,40 @@
+{
+  "productos": [
+    {
+      "nombre": "Charizar",
+      "precio": "120",
+      "imagen": "https://i.pinimg.com/736x/4c/77/c1/4c77c19f87a39ec6db50269348b0e7ee.jpg",
+      "id": "1"
+    },
+    {
+      "nombre": "Bulbasaur",
+      "precio": "120",
+      "imagen": "https://breedersguide.home.blog/wp-content/uploads/2019/04/bulbasaur.png?w=1024",
+      "id": "3"
+    },
+    {
+      "nombre": "Squirtle",
+      "precio": "120",
+      "imagen": "https://printler.com/media/photo/176420.jpg",
+      "id": "4"
+    },
+    {
+      "nombre": "Eevee",
+      "precio": "120",
+      "imagen": "https://images.squarespace-cdn.com/content/v1/571645b440261d0e2095da20/1551387712835-7VQ55YVY8JB03IOHE9EK/eevee.jpg?format=2500w",
+      "id": "5"
+    },
+    {
+      "id": "7c5e",
+      "nombre": "Charmander",
+      "precio": "300",
+      "imagen": "https://imagedelivery.net/5ejkUOtsMH5sf63fw6q33Q/cc72c3be-05a0-46b5-0102-22c5617f8a00/public"
+    },
+    {
+      "id": "d0e5",
+      "nombre": "Rattata",
+      "precio": "150",
+      "imagen": "https://i.seadn.io/gae/JSiJaTK2yB6O_tMn8zIqN-wxEOYzl12GscT9pIrWpFIqvWZ6PRlZKO-QKCiCL3QpPhjuTTuWDT9N41CfXHz7S537PxZ5Pms3svazcA?auto=format&dpr=1&w=1000"
+    }
+  ]
+}
